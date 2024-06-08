@@ -24,7 +24,7 @@
 	font-family: "Tiny5", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 2rem;
+	font-size: 1.65rem;
 	letter-spacing: 0.3rem;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -40,7 +40,7 @@
 	font-family: "Tiny5", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	color: #ffffff;
 
 	background: var(--gradient);
@@ -61,8 +61,8 @@
 	background: var(--gradient);
 	border-radius: 16px;
 
-	font-size: 1.75rem;
-	padding: 16px;
+	font-size: 1.5rem;
+	padding: 14px;
 
 	transition: all 0.3s;
 }
@@ -95,7 +95,35 @@
 	}
 
 	.desc-container h1 {
-		font-size: 2.3rem;
+		font-size: 2rem;
+	}
+
+	.desc-container div p {
+		font-size: 1.475rem;
+	}
+
+	.desc-container ul li a {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		width: 50%;
+		height: 50%;
+
+		display: grid;
+		grid-template-rows: 100%;
+		grid-template-columns: 50% 50%;
+	}
+
+	img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.desc-container h1 {
+		font-size: 2.5rem;
 	}
 
 	.desc-container div p {
