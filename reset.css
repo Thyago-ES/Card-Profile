@@ -31,3 +31,7 @@ img {
 i {
 	color: #b6b4b4;
 }
+
+figure {
+	overflow: hidden;
+}
