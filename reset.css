@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+
+:root {
+	--gradient: radial-gradient(#252628, #000000);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--gradient);
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+i {
+	color: #b6b4b4;
+}
